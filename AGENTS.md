@@ -18,16 +18,16 @@ sources at runtime.
 ## Read according to the task
 
 - Start with `README.md` for purpose, structure, and scope.
-- For skill behavior, read `skills/vietnam-business-law-practitioner/SKILL.md`.
+- For skill behavior, read `skills/vietnam-business-law-skills/SKILL.md`.
 - For routing and ownership, use
-  `skills/vietnam-business-law-practitioner/knowledge/INDEX.md` as the canonical
+  `skills/vietnam-business-law-skills/knowledge/INDEX.md` as the canonical
   detailed route map, then read the relevant BL core and only the capability units
   needed for the task. Do not preload all units in a track.
 - For state, composition, authority resolution, handoffs, output, or trace
   changes, read the corresponding files in
-  `skills/vietnam-business-law-practitioner/schemas/`.
+  `skills/vietnam-business-law-skills/schemas/`.
 - For research and legal sources, read `research/README.md` and the relevant
-  files in `skills/vietnam-business-law-practitioner/references/`.
+  files in `skills/vietnam-business-law-skills/references/`.
 - For evaluation work, start with `evals/composition/README.md` and, where
   relevant, `evals/freshness/README.md`.
 - For packaging, read `docs/plugin.md` and `docs/claude-code-plugin.md`.
@@ -111,7 +111,7 @@ runtime/composition evidence demonstrates a gap, consistent with `SKILL.md`.
 
 ## Plugin packaging
 
-- Codex and Claude Code share `skills/vietnam-business-law-practitioner/` as the
+- Codex and Claude Code share `skills/vietnam-business-law-skills/` as the
   runtime source of truth. Do not duplicate skill files for distribution.
 - Keep `.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`,
   `.claude-plugin/plugin.json`, and `.claude-plugin/marketplace.json` consistent with

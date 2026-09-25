@@ -40,17 +40,17 @@ untracked root `AGENTS.md` was preserved.
 
 Evidence:
 
-- [BL6 separation/protection](../../skills/vietnam-business-law-practitioner/knowledge/bl6-employment/restructuring-separation-protection.md),
+- [BL6 separation/protection](../../skills/vietnam-business-law-skills/knowledge/bl6-employment/restructuring-separation-protection.md),
   especially "Mutual exit", "Employment separation", and the decision procedure:
   BL6 owns employment separation, agreed status/terms, and continuing employment
   state; BL4 receives disputed claims, remedies, and procedure.
-- [BL4 breach/liability](../../skills/vietnam-business-law-practitioner/knowledge/bl4-remedies-disputes/breach-excuse-liability.md),
+- [BL4 breach/liability](../../skills/vietnam-business-law-skills/knowledge/bl4-remedies-disputes/breach-excuse-liability.md),
   lines 5–7 and 144: the unit starts after BL3 establishes obligation/performance
   and directs the reader to consume BL3 state.
-- [BL4 remedies](../../skills/vietnam-business-law-practitioner/knowledge/bl4-remedies-disputes/remedies-loss-mitigation.md),
+- [BL4 remedies](../../skills/vietnam-business-law-skills/knowledge/bl4-remedies-disputes/remedies-loss-mitigation.md),
   "Required state" and "Remedy-state pattern": inputs are BL4 liability and BL3
   contract propositions, with no explicit employment-merits handoff.
-- [BL4 dispute/settlement](../../skills/vietnam-business-law-practitioner/knowledge/bl4-remedies-disputes/dispute-posture-procedure-settlement.md),
+- [BL4 dispute/settlement](../../skills/vietnam-business-law-skills/knowledge/bl4-remedies-disputes/dispute-posture-procedure-settlement.md),
   "Settlement loop": agreed changes to obligations always return to BL3.
 
 Reproduction by contract walkthrough: BL6 has committed an employment separation
@@ -74,13 +74,13 @@ changes. Add an employment claim and a disputed mutual-exit composition probe.
 
 Evidence:
 
-- [BL8 core](../../skills/vietnam-business-law-practitioner/knowledge/bl8-cross-border/core.md),
+- [BL8 core](../../skills/vietnam-business-law-skills/knowledge/bl8-cross-border/core.md),
   line 33, allows `substantive_owner: BL2 | BL3 | BL4 | BL5 | BL7 | null`.
 - The same list appears in the
-  [routing index](../../skills/vietnam-business-law-practitioner/knowledge/INDEX.md)
+  [routing index](../../skills/vietnam-business-law-skills/knowledge/INDEX.md)
   and BL8 capability state patterns, including
-  [governing-law/treaty](../../skills/vietnam-business-law-practitioner/knowledge/bl8-cross-border/governing-law-treaty-enforcement.md).
-- [BL6 core](../../skills/vietnam-business-law-practitioner/knowledge/bl6-employment/core.md)
+  [governing-law/treaty](../../skills/vietnam-business-law-skills/knowledge/bl8-cross-border/governing-law-treaty-enforcement.md).
+- [BL6 core](../../skills/vietnam-business-law-skills/knowledge/bl6-employment/core.md)
   explicitly consumes material BL8 cross-border propositions while retaining
   employment ownership.
 
@@ -97,15 +97,15 @@ representation defect even before any particular foreign-law answer is tested.
 
 Evidence:
 
-- [BL3 core](../../skills/vietnam-business-law-practitioner/knowledge/bl3-contracts/core.md),
+- [BL3 core](../../skills/vietnam-business-law-skills/knowledge/bl3-contracts/core.md),
   lines 47–55: a reliable committed sibling result may be consumed without a
   read, but a sibling is loaded when its proposition is "otherwise material to
   the current decision".
 - The same broad clause appears in the BL4–BL8 cores; for example
-  [BL6 core](../../skills/vietnam-business-law-practitioner/knowledge/bl6-employment/core.md),
-  line 95, and [BL8 core](../../skills/vietnam-business-law-practitioner/knowledge/bl8-cross-border/core.md),
+  [BL6 core](../../skills/vietnam-business-law-skills/knowledge/bl6-employment/core.md),
+  line 95, and [BL8 core](../../skills/vietnam-business-law-skills/knowledge/bl8-cross-border/core.md),
   line 129.
-- The [index](../../skills/vietnam-business-law-practitioner/knowledge/INDEX.md)
+- The [index](../../skills/vietnam-business-law-skills/knowledge/INDEX.md)
   uses the narrower condition "material to reopen". The
   [BL6 JIT oracle](../../evals/composition/bl6-jit-oracles-v0.1.json), JIT-02,
   forbids reading relationship classification for a current-terms-only case.
@@ -124,17 +124,17 @@ cases and a perturbation that actually makes the upstream result stale.
 
 Evidence:
 
-- [Index](../../skills/vietnam-business-law-practitioner/knowledge/INDEX.md),
+- [Index](../../skills/vietnam-business-law-skills/knowledge/INDEX.md),
   line 181, assigns BHXH/contribution consequences to BL5.
-- [BL6 core](../../skills/vietnam-business-law-practitioner/knowledge/bl6-employment/core.md)
+- [BL6 core](../../skills/vietnam-business-law-skills/knowledge/bl6-employment/core.md)
   excludes those consequences and hands them to BL5.
-- [BL5 core](../../skills/vietnam-business-law-practitioner/knowledge/bl5-tax/core.md),
+- [BL5 core](../../skills/vietnam-business-law-skills/knowledge/bl5-tax/core.md),
   "Owns" and "JIT capability routing", describes tax characterization, taxable
   base/rate, invoice eligibility, and tax incentives.
-- [BL5 characterization](../../skills/vietnam-business-law-practitioner/knowledge/bl5-tax/characterization-events-roles.md)
+- [BL5 characterization](../../skills/vietnam-business-law-skills/knowledge/bl5-tax/characterization-events-roles.md)
   mentions contribution handoffs, but its operational route and state pattern
   are tax-specific. The
-  [computation unit](../../skills/vietnam-business-law-practitioner/knowledge/bl5-tax/base-method-rate-timing.md)
+  [computation unit](../../skills/vietnam-business-law-skills/knowledge/bl5-tax/base-method-rate-timing.md)
   activates after tax characterization and describes a taxable base and tax
   period, without an explicit contribution-coverage/base route.
 
@@ -157,7 +157,7 @@ Evidence:
   updates `latest_prop_status` only on `PROPOSITION_STATUS`.
 - Its independent-blocker check at line 578 reads that cached status; it does
   not consume later `STALE` or `INVALIDATE` events for the same proposition.
-- [Runtime trace contract](../../skills/vietnam-business-law-practitioner/schemas/runtime-trace.md)
+- [Runtime trace contract](../../skills/vietnam-business-law-skills/schemas/runtime-trace.md)
   defines those state-transition events. Terminal conflict readiness requires
   an independent **current** supported blocker.
 
@@ -182,7 +182,7 @@ Evidence:
 - [State-delta validator](../../scripts/check_runtime_trace.py), line 175,
   requires a non-empty owner string but does not join affected IDs to ownership.
 - The generic validation dispatch does not reconstruct an `OWNER_ASSIGN` map.
-- [Kernel ownership invariant](../../skills/vietnam-business-law-practitioner/SKILL.md)
+- [Kernel ownership invariant](../../skills/vietnam-business-law-skills/SKILL.md)
   requires only the accountable owner to commit or replace its proposition.
 
 Synthetic reproduction: assign `P-REL` to BL6, then apply a revision-correct BL5

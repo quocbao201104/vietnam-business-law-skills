@@ -8,10 +8,10 @@ This repository is a research-first legal decision skill. Contributions should i
 
 Please read the repository architecture first:
 
-- `skills/vietnam-business-law-practitioner/SKILL.md`
-- `skills/vietnam-business-law-practitioner/knowledge/INDEX.md`
-- `skills/vietnam-business-law-practitioner/schemas/`
-- `skills/vietnam-business-law-practitioner/references/`
+- `skills/vietnam-business-law-skills/SKILL.md`
+- `skills/vietnam-business-law-skills/knowledge/INDEX.md`
+- `skills/vietnam-business-law-skills/schemas/`
+- `skills/vietnam-business-law-skills/references/`
 
 The core design principle is:
 

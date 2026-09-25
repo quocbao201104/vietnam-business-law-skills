@@ -11,16 +11,16 @@ The repository includes a native Codex catalog at [marketplace.json](../.agents/
 In compatible Codex marketplace controls, add:
 
 ```text
-https://github.com/quocbao201104/vietnam-business-law-practitioner.git
+https://github.com/quocbao201104/vietnam-business-law-skills.git
 ```
 
-Then install `vietnam-business-law-practitioner` from that marketplace.
+Then install `vietnam-business-law-skills` from that marketplace.
 
 On a compatible Codex CLI:
 
 ```text
-codex plugin marketplace add https://github.com/quocbao201104/vietnam-business-law-practitioner.git
-codex plugin add vietnam-business-law-practitioner@vietnam-business-law-practitioner
+codex plugin marketplace add https://github.com/quocbao201104/vietnam-business-law-skills.git
+codex plugin add vietnam-business-law-skills@vietnam-business-law-skills
 ```
 
 Start a new task after installation or update so the host discovers the packaged skill cleanly.
@@ -31,7 +31,7 @@ The runtime package uses the existing source of truth:
 
 ```text
 .codex-plugin/plugin.json
-skills/vietnam-business-law-practitioner/
+skills/vietnam-business-law-skills/
 LICENSE
 DISCLAIMER.md
 ```

@@ -51,7 +51,7 @@ The checker can prove walker-mediated reads; it cannot prove the absence of hidd
 Example (PowerShell; adjust paths):
 
 ```powershell
-$Repo = "C:\path\to\vietnam-business-law-practitioner"
+$Repo = "C:\path\to\vietnam-business-law-skills"
 $RunDir = "$env:TEMP\vblp-rf01"
 New-Item -ItemType Directory -Force $RunDir | Out-Null
 $Trace = "$RunDir\trace.jsonl"

@@ -15,7 +15,7 @@ An Agent Skill for founders, operators, and businesses assessing contracts, comp
 [![Version: v0.2.0](https://img.shields.io/badge/version-v0.2.0-0a7.svg)](#status)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Jurisdiction: Vietnam](https://img.shields.io/badge/jurisdiction-Vietnam-da251d.svg)](#what-it-can-help-with)
-[![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/vietnam-business-law-practitioner/SKILL.md)
+[![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/vietnam-business-law-skills/SKILL.md)
 
 **[Use cases](#what-it-can-help-with) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Project status](#status)**
 
@@ -66,31 +66,31 @@ Choose your host below. It needs access to the skill files and suitable retrieva
 Run inside Claude Code:
 
 ```text
-/plugin marketplace add quocbao201104/vietnam-business-law-practitioner
-/plugin install vietnam-business-law-practitioner@vietnam-business-law-practitioner
+/plugin marketplace add quocbao201104/vietnam-business-law-skills
+/plugin install vietnam-business-law-skills@vietnam-business-law-skills
 ```
 
 Reload plugins or restart the session if prompted, then invoke:
 
 ```text
-/vietnam-business-law-practitioner:vietnam-business-law-practitioner
+/vietnam-business-law-skills:vietnam-business-law-skills
 ```
 
 [Installation and update details →](docs/claude-code-plugin.md)
 
 ### Codex
 
-In compatible Codex marketplace controls, add this repository and install `vietnam-business-law-practitioner`:
+In compatible Codex marketplace controls, add this repository and install `vietnam-business-law-skills`:
 
 ```text
-https://github.com/quocbao201104/vietnam-business-law-practitioner.git
+https://github.com/quocbao201104/vietnam-business-law-skills.git
 ```
 
 On a compatible Codex CLI:
 
 ```text
-codex plugin marketplace add https://github.com/quocbao201104/vietnam-business-law-practitioner.git
-codex plugin add vietnam-business-law-practitioner@vietnam-business-law-practitioner
+codex plugin marketplace add https://github.com/quocbao201104/vietnam-business-law-skills.git
+codex plugin add vietnam-business-law-skills@vietnam-business-law-skills
 ```
 
 Start a new task after installation so the host discovers the skill.
@@ -102,10 +102,10 @@ Start a new task after installation so the host discovers the skill.
 Clone the repository:
 
 ```bash
-git clone https://github.com/quocbao201104/vietnam-business-law-practitioner.git
+git clone https://github.com/quocbao201104/vietnam-business-law-skills.git
 ```
 
-Use [`skills/vietnam-business-law-practitioner/`](skills/vietnam-business-law-practitioner/) with a host that supports Agent Skills, following that host's skill-loading instructions. [`SKILL.md`](skills/vietnam-business-law-practitioner/SKILL.md) is the runtime entry point. Both plugin packages use these same files.
+Use [`skills/vietnam-business-law-skills/`](skills/vietnam-business-law-skills/) with a host that supports Agent Skills, following that host's skill-loading instructions. [`SKILL.md`](skills/vietnam-business-law-skills/SKILL.md) is the runtime entry point. Both plugin packages use these same files.
 
 ### Bring your first business decision
 
@@ -138,7 +138,7 @@ Three design choices support that approach:
 
 The eight legal roles span issue framing (BL1), company authority and governance (BL2), contracts (BL3), breach and disputes (BL4), tax and financial consequences (BL5), employment (BL6), regulation and compliance (BL7), and investment and cross-border matters (BL8).
 
-One assistant can perform several roles in sequence; separate agents are optional. Knowledge and specialist guidance are loaded only when needed. See the [detailed capability and ownership map](skills/vietnam-business-law-practitioner/knowledge/INDEX.md) and [runtime contracts](skills/vietnam-business-law-practitioner/schemas/) for the exact boundaries.
+One assistant can perform several roles in sequence; separate agents are optional. Knowledge and specialist guidance are loaded only when needed. See the [detailed capability and ownership map](skills/vietnam-business-law-skills/knowledge/INDEX.md) and [runtime contracts](skills/vietnam-business-law-skills/schemas/) for the exact boundaries.
 
 ## Live-law verification
 
@@ -148,7 +148,7 @@ A search result helps locate a source; the underlying authority still needs veri
 
 If suitable sources or retrieval tools are unavailable, the agent should explain what remains unverified and how that affects the proposed action. The package does not include a legal database or retrieval service.
 
-For the method, see the [search strategy](skills/vietnam-business-law-practitioner/references/search-strategy.md), [source-status guidance](skills/vietnam-business-law-practitioner/references/source-status.md), and [authority-resolution contract](skills/vietnam-business-law-practitioner/schemas/authority-resolver.md).
+For the method, see the [search strategy](skills/vietnam-business-law-skills/references/search-strategy.md), [source-status guidance](skills/vietnam-business-law-skills/references/source-status.md), and [authority-resolution contract](skills/vietnam-business-law-skills/schemas/authority-resolver.md).
 
 ## Status
 
@@ -166,7 +166,7 @@ For maintainers and contributors, the repository keeps runtime guidance, researc
 
 | Location | Purpose |
 | --- | --- |
-| [`skills/vietnam-business-law-practitioner/`](skills/vietnam-business-law-practitioner/) | Runtime instructions, legal reasoning, specialist guidance, references, and contracts |
+| [`skills/vietnam-business-law-skills/`](skills/vietnam-business-law-skills/) | Runtime instructions, legal reasoning, specialist guidance, references, and contracts |
 | [`research/`](research/README.md) | Research findings, sources, alternative explanations, and unresolved questions |
 | [`research/legal-source-retrieval/`](research/legal-source-retrieval/README.md) | Research into discovering, identifying, versioning, and verifying legal authority |
 | [`evals/composition/`](evals/composition/README.md) | Routing, ownership, shared state, composition, and observable runtime evaluation |

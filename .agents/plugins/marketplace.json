@@ -1,11 +1,11 @@
 {
-  "name": "vietnam-business-law-practitioner",
+  "name": "vietnam-business-law-skills",
   "interface": {
-    "displayName": "Vietnam Business Law Practitioner"
+    "displayName": "Vietnam Business Law Skills"
   },
   "plugins": [
     {
-      "name": "vietnam-business-law-practitioner",
+      "name": "vietnam-business-law-skills",
       "source": {
         "source": "local",
         "path": "./"

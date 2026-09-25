@@ -1,6 +1,6 @@
 # Disclaimer
 
-Vietnam Business Law Practitioner is an open-source research and decision-support project.
+Vietnam Business Law Skills is an open-source research and decision-support project.
 
 It is **not a law firm**, does not provide legal representation, and does not create a lawyer-client or attorney-client relationship.
 

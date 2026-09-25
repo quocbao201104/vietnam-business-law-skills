@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview & Core Philosophy
 
-This repository develops the **Vietnam Business Law Practitioner Agent Skill** for business and commercial decisions involving Vietnamese law. Its primary artifacts are Markdown reasoning guidance, semantic runtime contracts, and evaluation fixtures. Python scripts support observable runtime trace evaluation (they do not run an LLM).
+This repository develops the **Vietnam Business Law Skills Agent Skill** for business and commercial decisions involving Vietnamese law. Its primary artifacts are Markdown reasoning guidance, semantic runtime contracts, and evaluation fixtures. Python scripts support observable runtime trace evaluation (they do not run an LLM).
 
 **Core Design Principle:** *Stable reasoning, live law.*
 - Retain durable legal reasoning, framing procedures, and ownership boundaries in the skill.

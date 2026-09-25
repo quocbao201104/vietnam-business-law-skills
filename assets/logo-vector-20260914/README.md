@@ -1,4 +1,4 @@
-# Vietnam Business Law Practitioner — Vector logo and README banner
+# Vietnam Business Law Skills — Vector logo and README banner
 
 Reconstructed from the user-supplied PNG on 2026-09-14. This task wrote only this new kit and its ZIP archive. No plugin, skill, or repository README files were edited by this task.
 

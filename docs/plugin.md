@@ -1,6 +1,6 @@
 # Codex plugin
 
-Vietnam Business Law Practitioner can be distributed as a Codex plugin containing the existing Agent Skill. The repository root is the plugin root: [plugin.json](../.codex-plugin/plugin.json) points directly to `./skills/`. The standalone skill installation remains supported.
+Vietnam Business Law Skills can be distributed as a Codex plugin containing the existing Agent Skill. The repository root is the plugin root: [plugin.json](../.codex-plugin/plugin.json) points directly to `./skills/`. The standalone skill installation remains supported.
 
 The plugin packages instructions, legal reasoning resources, schemas, references, and specialist routing. It does not include an MCP server, external account connections, hooks, or a separate agent runtime. Live-law retrieval still depends on the host's available web or source tools.
 

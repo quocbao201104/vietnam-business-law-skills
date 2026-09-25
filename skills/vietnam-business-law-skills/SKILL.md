@@ -3,7 +3,7 @@ name: vietnam-business-law-skills
 description: Research-first practitioner skill for legally grounded business and commercial decisions in Vietnam. Uses stable reasoning, live-law verification, proposition ownership, shared legal state, controlled routing loops, and just-in-time specialist depth.
 ---
 
-# Vietnam Business Law Practitioner
+# Vietnam Business Law Skills
 
 ## Purpose
 

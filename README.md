@@ -3,10 +3,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/logo-vector-20260914/banner/readme-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/logo-vector-20260914/banner/readme-banner-light.svg">
-  <img src="assets/logo-vector-20260914/banner/readme-banner-light.svg" alt="Vietnam Business Law Practitioner" width="100%">
+  <img src="assets/logo-vector-20260914/banner/readme-banner-light.svg" alt="Vietnam Business Law Skills" width="100%">
 </picture>
 
-# Vietnam Business Law Practitioner
+# Vietnam Business Law Skills
 
 **Work through the legal questions behind your next business decision in Vietnam.**
 
@@ -27,7 +27,7 @@ An Agent Skill for founders, operators, and businesses assessing contracts, comp
 
 Before you sign, hire, terminate, launch, or invest, you need to understand what the law means for the action you are considering.
 
-Vietnam Business Law Practitioner guides an AI agent through that work: establish the relevant facts, investigate the legal questions, verify the authority that matters, and explain the available options, consequences, and next steps. It is designed to make unresolved issues visible so you can distinguish a supported option from one that still needs evidence or legal review.
+Vietnam Business Law Skills guides an AI agent through that work: establish the relevant facts, investigate the legal questions, verify the authority that matters, and explain the available options, consequences, and next steps. It is designed to make unresolved issues visible so you can distinguish a supported option from one that still needs evidence or legal review.
 
 **Available as a skill and as a plugin for Claude Code and Codex.** The project is in early dogfooding; it supports research and decision preparation, with professional review where needed.
 
@@ -112,7 +112,7 @@ Use [`skills/vietnam-business-law-skills/`](skills/vietnam-business-law-skills/)
 Provide the action you are considering, the outcome you want, and the relevant facts, documents, and dates you have. For example:
 
 ```text
-Use Vietnam Business Law Practitioner.
+Use Vietnam Business Law Skills.
 
 Our Vietnamese company is considering terminating a supply agreement
 because the supplier has repeatedly missed deliveries.

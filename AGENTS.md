@@ -6,7 +6,7 @@ These instructions apply throughout this repository. Read any applicable nested
 `AGENTS.md` or `AGENTS.override.md` before editing its target paths. Explicit user
 instructions take precedence over repository defaults.
 
-This repository develops the Vietnam Business Law Practitioner Agent Skill for
+This repository develops the Vietnam Business Law Skills Agent Skill for
 business decisions involving Vietnamese law. Its main artifacts are Markdown
 reasoning guidance, semantic runtime contracts, and evaluation fixtures. Python
 scripts support observable runtime evaluation; they do not run an LLM.

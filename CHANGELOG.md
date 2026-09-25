@@ -32,4 +32,4 @@ The project remains suitable for early dogfooding and real-world evaluation. Thi
 
 ## [0.1.0] — 2026-09-13
 
-Initial public release of the Vietnam Business Law Practitioner research-first Agent Skill, including the BL1–BL8 ownership architecture, live-law authority resolution, shared legal work state, per-action readiness, and adversarial evaluation contracts.
+Initial public release of the Vietnam Business Law Skills research-first Agent Skill, including the BL1–BL8 ownership architecture, live-law authority resolution, shared legal work state, per-action readiness, and adversarial evaluation contracts.

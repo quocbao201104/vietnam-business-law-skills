@@ -1,4 +1,4 @@
-# Vietnam Business Law Practitioner — Roadmap
+# Vietnam Business Law Skills — Roadmap
 
 > This roadmap describes possible directions for the project. It is **not a delivery commitment** and it is not a promise that every listed capability will be implemented.
 >
@@ -6,7 +6,7 @@
 
 ## Project direction
 
-Vietnam Business Law Practitioner is intended to grow from a research-first legal reasoning skill into a broader **business-law practitioner system** for founders, operators, and businesses working in Vietnam.
+Vietnam Business Law Skills is intended to grow from a research-first legal reasoning skill into a broader **business-law practitioner system** for founders, operators, and businesses working in Vietnam.
 
 The long-term shape is not “more Markdown about more laws.” The intended stack is:
 

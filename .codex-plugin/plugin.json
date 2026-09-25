@@ -12,7 +12,7 @@
   "keywords": ["vietnam", "business-law", "legal-research", "contracts", "compliance"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Vietnam Business Law Practitioner",
+    "displayName": "Vietnam Business Law Skills",
     "shortDescription": "Research-first Vietnam business-law analysis with live-law verification.",
     "longDescription": "Analyze Vietnamese business and commercial legal questions using stable practitioner reasoning, proposition ownership, controlled specialist routing, preserved uncertainty, and current or historically applicable authority verification.",
     "developerName": "quocbao201104",

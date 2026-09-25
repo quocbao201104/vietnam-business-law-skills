@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for contributing to Vietnam Business Law Practitioner.
+Thanks for contributing to Vietnam Business Law Skills.
 
 This repository is a research-first legal decision skill. Contributions should improve correctness, maintainability, routing, evidence discipline, or runtime behavior without turning the repository into a static legal database.
 
